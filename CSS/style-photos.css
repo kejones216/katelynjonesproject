@@ -1,0 +1,125 @@
+body { 
+  background-color: #e7adff;
+  font-color:       #021526;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        medium;
+  margin:           0px;
+}
+
+
+
+.main-header 
+{  background-color: #ffb7cb;
+  padding: 0px 0px;
+  margin: 20px 30px 0px 30px;
+  text-align:       center;
+  font-size:        150%;
+}
+
+h1 {
+    color: #021526;
+    display: block;
+    font-size: 200%;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+h2{
+  font-style: italic;
+  display: block;
+  font-size: 80%;
+  margin: 5px 0px;
+  font-weight: normal;
+}
+
+
+
+#nav {
+  display: block;
+  background-color: #ffb7cb;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 0px;
+
+}
+
+
+#nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 50px;
+  margin: 0px 50px;
+}
+
+nav li a:link, nav li a:visited {
+  text-decoration-line: underline;
+  color:         #770023;
+}
+
+
+a:link {
+  color:            #770023;
+  text-decoration:  none;
+}
+
+nav a:hover {
+  background-color: rgb(255, 219, 216);
+}
+
+
+.thumbnail {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+
+.totoplink {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  color:            #770023;
+
+}
+
+.footer {
+  background-color: #ffb7cb;
+  padding: .25em;
+  text-align:       center;
+  font-size:        75%;
+}
